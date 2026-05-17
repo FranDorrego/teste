@@ -1,46 +1,47 @@
-# 🚀 Mi Primer Site
+# 🚀 My First Site
 
-Este es un proyecto simple para comenzar a publicar sitios web usando ArduMaker.
+This is a simple project to start publishing websites using ArduMaker.
 
-La idea de este proyecto es aprender cómo funciona una página web básica separando el contenido, los estilos y la lógica en diferentes archivos.
+The goal of this project is to learn how a basic website works by separating the content, styles, and logic into different files.
 
 ---
 
 # 📄 index.html
 
-El archivo `index.html` contiene la estructura del sitio.
+The `index.html` file contains the structure of the website.
 
-Aquí colocas:
-- títulos
-- textos
-- imágenes
-- botones
-- secciones
+Here you place:
+- titles
+- texts
+- images
+- buttons
+- sections
 
-Ejemplo:
+Example:
 
 ```html
-<h1>Hola Mundo</h1>
-<p>Mi primer sitio web</p>
-```
+<h1>Hello World</h1>
+<p>My first website</p>
+````
+
 ---
 
 # 🎨 style.css
 
-El archivo `style.css` controla el diseño visual del sitio.
+The `style.css` file controls the visual design of the website.
 
-Aquí puedes cambiar:
+Here you can change:
 
-* colores
-* tamaños
-* posiciones
-* animaciones
-* márgenes
-* fuentes
+* colors
+* sizes
+* positions
+* animations
+* margins
+* fonts
 
-Ejemplo:
+Example:
 
-```css
+```css id="wdrg8j"
 body {
   background: black;
   color: white;
@@ -51,49 +52,46 @@ body {
 
 # ⚡ script.js
 
-El archivo `script.js` agrega interacción y lógica.
+The `script.js` file adds interaction and logic.
 
-Aquí puedes:
+Here you can:
 
-* detectar clicks
-* cambiar contenido dinámicamente
-* crear animaciones
-* consumir APIs
-* conectar sistemas
+* detect clicks
+* change content dynamically
+* create animations
+* consume APIs
+* connect systems
 
-Ejemplo:
+Example:
 
-```javascript
-console.log("Hola desde JavaScript");
+```javascript id="r42bcs"
+console.log("Hello from JavaScript");
 ```
 
 ---
 
-# 🌍 Cómo publicar cambios
+# 🌍 How to publish changes
 
-Luego de modificar archivos:
+After modifying files:
 
-```bash
+```bash id="s2wl5u"
 git add .
-git commit -m "Mi primer cambio"
+git commit -m "My first change"
 git push
 ```
 
-ArduMaker detectará automáticamente los cambios y realizará el deploy del sitio.
+ArduMaker will automatically detect the changes and deploy the website.
 
 ---
 
-# 🛠️ Próximos pasos
+# 🛠️ Next steps
 
-Ahora puedes comenzar a:
+Now you can start:
 
-* modificar textos
-* cambiar colores
-* agregar imágenes
-* crear nuevas secciones
-* experimentar libremente
+* modifying texts
+* changing colors
+* adding images
+* creating new sections
+* experimenting freely
 
-La mejor forma de aprender es probando 🚀
-
-```
-```
+The best way to learn is by building 🚀
