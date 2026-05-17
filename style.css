@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111827;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 700px;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.badge {
+  margin-top: 30px;
+
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  border-radius: 12px;
+
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+
+  font-size: 14px;
+}
+
+.ardumaker {
+  position: fixed;
+
+  bottom: 25px;
+  right: 25px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  opacity: 0.08;
+
+  transition: 0.3s ease;
+
+  user-select: none;
+}
+
+.ardumaker:hover {
+  opacity: 0.18;
+}
+
+.ardumaker img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.ardumaker span {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.glow {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  background: #3b82f6;
+
+  filter: blur(120px);
+  opacity: 0.08;
+
+  border-radius: 50%;
+
+  top: -100px;
+  right: -100px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .ardumaker {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .ardumaker span {
+    font-size: 16px;
+  }
+}
